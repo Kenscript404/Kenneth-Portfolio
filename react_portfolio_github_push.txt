@@ -1,0 +1,88 @@
+React.js Portfolio: GitHub Push Step-by-Step (Tagalog)
+
+---
+
+Step 1: I-initialize ang Git sa project
+Buksan ang terminal sa folder ng project:
+
+```
+git init
+```
+> Nagse-set up ito ng local Git repository.
+
+---
+
+Step 2: I-add ang files sa Git staging area
+```
+git add .
+```
+> Ang `.` ay para i-add lahat ng files sa staging.
+
+---
+
+Step 3: Mag-create ng initial commit
+```
+git commit -m "Initial commit"
+```
+> Nagke-create ito ng snapshot ng kasalukuyang estado ng project.
+
+---
+
+Step 4: Gumawa ng repository sa GitHub
+1. Pumunta sa [GitHub](https://github.com/)
+2. Click **New repository**
+3. Ilagay ang **Repository name** (e.g., `Kenneth-Portfolio`)
+4. Piliin **Public**
+5. Click **Create repository**
+
+---
+
+Step 5: I-link ang local repo sa GitHub
+Kopyahin ang HTTPS URL ng GitHub repo at i-run sa terminal:
+
+```
+git remote add origin https://github.com/username/Kenneth-Portfolio.git
+```
+> Palitan ang `username` ng iyong GitHub username.
+
+---
+
+Step 6: I-push ang local branch sa GitHub
+```
+git branch -M main
+git push -u origin main
+```
+> I-upload nito ang lahat ng local files sa GitHub.
+
+---
+
+Step 7: Mag-update ng project (New changes)
+Kung may bagong changes sa project:
+
+1. I-check ang status:
+```
+git status
+```
+2. I-add ang changes:
+```
+git add .
+```
+3. I-commit ang changes:
+```
+git commit -m "Update: [ilagay ang ginawa mong update]"
+```
+4. I-push sa GitHub:
+```
+git push
+```
+> Makikita na sa GitHub repo ang updated files.
+
+---
+
+Step 8 (Optional): Deploy sa Netlify para maging live
+1. Pumunta sa [Netlify](https://www.netlify.com/)
+2. Click **New site from Git**
+3. Piliin ang GitHub at i-connect ang repository
+4. Set **branch** = `main`, **build command** = `npm run build`, **publish directory** = `build`
+5. I-deploy → Makakakuha ka ng live link
+
