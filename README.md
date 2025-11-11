@@ -238,7 +238,7 @@ This project is licensed under the MIT License - see the [LICENSE.md](./LICENSE)
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore-start -->
 <!-- markdownlint-disable -->
-<table>
+<!-- <table>
   <tbody>
     <tr>
       <td align="center" valign="top" width="14.28%"><a href="http://ashutosh1919.github.io"><img src="https://avatars3.githubusercontent.com/u/20843596?s=460&u=7f184b911f73ae1dc5765ab686fff2b2e984830f&v=4?s=100" width="100px;" alt="Ashutosh Hathidara"/><br /><sub><b>Ashutosh Hathidara</b></sub></a><br /><a href="https://github.com/ashutosh1919/masterPortfolio/commits?author=ashutosh1919" title="Code">💻</a> <a href="https://github.com/ashutosh1919/masterPortfolio/commits?author=ashutosh1919" title="Documentation">📖</a> <a href="#design-ashutosh1919" title="Design">🎨</a> <a href="#maintenance-ashutosh1919" title="Maintenance">🚧</a> <a href="#ideas-ashutosh1919" title="Ideas, Planning, & Feedback">🤔</a></td>
@@ -291,7 +291,7 @@ This project is licensed under the MIT License - see the [LICENSE.md](./LICENSE)
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/Towbee05"><img src="https://avatars.githubusercontent.com/u/114928370?v=4?s=100" width="100px;" alt="Tobi"/><br /><sub><b>Tobi</b></sub></a><br /><a href="https://github.com/ashutosh1919/masterPortfolio/commits?author=Towbee05" title="Documentation">📖</a></td>
     </tr>
   </tbody>
-</table>
+</table> -->
 
 <!-- markdownlint-restore -->
 <!-- prettier-ignore-end -->
